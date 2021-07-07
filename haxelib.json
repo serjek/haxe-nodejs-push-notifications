@@ -1,0 +1,16 @@
+{
+  "name": "haxe-nodejs-push-notifications",
+  "license": "MIT",
+  "tags": [
+    "nodejs",
+    "push"
+  ],
+  "classPath": "src",
+  "contributors": [
+    "serjek"
+  ],
+  "releasenote": "Initial release",
+  "version": "0.1.0",
+  "url": "https://github.com/serjek/haxe-nodejs-push-notifications",
+  "dependencies": {}
+}
