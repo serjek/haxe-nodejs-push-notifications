@@ -49,7 +49,7 @@ typedef NotificationConfig = {
 		{
 			body:String,
 			title:String,
-			action:String
+			?action:String
 		}
 	>,
 	topic:String, //Required: The destination topic for the notification - bundle identifer

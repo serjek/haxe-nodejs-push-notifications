@@ -31,7 +31,7 @@ typedef MessageConfig = {
 	?data:DynamicAccess<String>,
 	?notification: {
 		title: String,
-		icon: String,
+		?icon: String,
 		?body: String
 		//and list goes on...
 	}
