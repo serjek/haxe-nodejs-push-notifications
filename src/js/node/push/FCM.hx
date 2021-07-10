@@ -28,6 +28,7 @@ typedef MessageConfig = {
 	?timeToLive:Int,
 	?restrictedPackageName:String,
 	?dryRun:Bool,
+	?tag:String,
 	?data:DynamicAccess<String>,
 	?notification: {
 		title: String,
