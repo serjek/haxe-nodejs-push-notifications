@@ -48,5 +48,12 @@ typedef Recipients = {
 	?topic:String,		//A single publish/subscribe topic.
 	?condition:String,	//Multiple topics using the condition parameter.
 	?registrationTokens: Array<String> //A list of registration tokens. Must contain at least 1 and at most 1000 registration tokens.
-};
-typedef Response = Array<{?error:Dynamic}>; //lists errors for invalid tokens
+}
+
+typedef Response = {
+	multicast_id:Float,
+	success:Int,
+	failure:Int,
+	canonical_ids:Int,
+	results:Array<{?message_id:String, ?error:String}>
+}
